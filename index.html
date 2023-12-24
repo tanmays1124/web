@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel='stylesheet' type="text/css" href="style.css"
+    </head>
+    <body>
+
+
+
+<div class="container">
+    <div class="cont">
+        <div class="image">
+            <p id="ask"> Bahar chale? </p>
+            <img src="82.gif" id="gif" alt="Description of the GIF">
+
+        </div>
+        <div class="btns">
+            <div id='no'  class="beautiful-button">No</div>
+            <div id='yes' class="beautiful-button">Yes</div>
+        </div>
+    </div>
+</div>
+
+
+
+    </body>
+    <style>
+
+      
+          
+          
+          
+          
+    </style>
+    <script>
+        const button = document.getElementById("yes");
+        const image = document.getElementById("gif");
+        button.addEventListener("click", changeImage);
+        function changeImage(){
+            const ask = document.getElementById("ask");
+            ask.innerHTML = "Yeeyyy!";
+            image.src = "75.gif";
+        }
+
+           
+
+    </script>
+    </html>

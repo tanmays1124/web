@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default body margins */
+  background-color: #FF69B4;
+  color:#004D40;
+
+}
+#no:hover {
+  z-index: 3;
+  
+  transform: translateX(-400px) translateY(-50px); /* Example movement */
+}
+.beautiful-button {
+  display: inline-block; /* Treat as a button */
+  align-items: center; /* Align content vertically */
+  justify-content: center; /* Align content horizontally */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #af4cac; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Hand cursor on hover */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: all 0.5s ease-in-out; /* Smooth hover effect */
+}
+#ask{
+  text-align: center;
+  font-size: 50px;
+}
